@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  background-image: url('cobalatber.jpg');
+  
+}
+
+header {
+  color: rgba(232, 109, 166, 0.902);
+  padding: 30px;
+  text-align: left;
+}
+header h1 {
+  font-size: 30px;
+  margin: 10 0;
+  line-height: 1.5;
+  font-style:oblique;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+h2 {
+  color: #b784a7;
+  font-size: 26px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.container {
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Center the content horizontally */
+  padding: 30px;
+  background-color: #f7eff3;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #81a5e3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  text-align: right; /* Pusatkan navigasi */
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Pusatkan item di dalam navigasi */
+  flex-wrap: wrap; /* Agar item turun ke bawah jika tidak cukup lebar */
+}
+
+nav ul li {
+  margin: 10px; /* Berikan margin agar tidak terlalu rapat */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #d287ba;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #9f6690;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Jadikan daftar menu vertikal */
+    align-items: center;/* Pusatkan item */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Beri jarak antar item */
+  }
+}
+
+
+
